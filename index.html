@@ -8,9 +8,10 @@
 	<!--_______ STYLESHEETS STARTS HERE _______-->
 
 	<style>
-		.image{
-	size: relative;
-		background-image: url("bram-naus-200967.jpg") no-repeat center center fixed;
+body{
+	background-image: url("https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/StockSnap_3H0L8CNXUO.jpg");
+	background-size: 100%;
+}
 }
 .navwrapper{
 	height: 75px;
@@ -30,7 +31,13 @@
 	float: left;
 	width: auto;
 	height: 55px;
-	margin: 10px;
+	margin: 5px;
+	padding: 10px;
+}
+.floatleft:hover {
+	background-color:rgba(255, 222, 222, 0.3);
+	box-shadow: 0 0 8px 0px;
+	border-radius: 5px;
 }
 li{
 	float: left;
@@ -41,19 +48,55 @@ li a{
 	margin: 5px;
 	text-align: center;
 	font-size: 25px;
-	font-family: 'Lobster', cursive;
-	color: #6cb2e0;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Lobster', cursive;/*#58e85e*/
+	color: #ff5a5a;
+	background-color:rgba(255, 222, 222, 0.3);
 	border: 1px bold black;
 }
 li a:hover{
 	background-color: #fafafa;
+	opacity: 50%;
 	transition-duration:.1s;
 	box-shadow: 0 0 8px 0px;
 	border-radius: 5px;
+	background-color:rgba(255, 222, 222, 0.3);
 }
 li a:active{
 	box-shadow: 0 0 5px 0px;
 }
+
+
+
+
+
+/*------NEW -----*/
+
+.clear{
+	clear: both;
+}
+.create{
+	display: block;
+	text-align: center;
+	margin: 90px auto;
+	padding: 100px;
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	color: #6cb2e0;
+	background-repeat: no-repeat;
+}
+
+h1{
+	color: #ff5a5a;
+	background-color:rgba(255, 222, 222, 0.3);
+	font-family: 'Open Sans', sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	
+
+}
+
+
 	</style>
  	<!--_______ STYLESHEETS ENDS HERE _______-->
 	
@@ -61,7 +104,7 @@ li a:active{
 <body>
 <div class="navwrapper">
 	<header class="navbar">
-	<a href="#"><img class="floatleft" src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_6MLDYy.png"></a>
+	<a href="#"><img class="floatleft" src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_9i5yVG.png"></a>
 		<ul class="navigation">
 			<li><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
@@ -70,5 +113,12 @@ li a:active{
 		</ul>
 	</header>
 </div>
+	
+<div class="clear">
+</div>
+<div class="create">
+	<h1>I'm ready to create, are you?</h1>
+</div>
+	
 </body>
 </html>
