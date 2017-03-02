@@ -2,30 +2,25 @@
 <html>
 <head>
 	<title>Ankit Web Dev</title>
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-	<link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_9i5yVG.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="feb.png"/>
 	
-	<!--_______ STYLESHEETS STARTS HERE _______-->
-
 	<style>
-body{
+		body{
 	background-image: url("https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/StockSnap_816KPMNUS2.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-.blur{
- -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
+
 }
 .navwrapper{
 	height: 75px;
 }
 .navbar{
-	max-width: 950px;
+	max-width: 980px;
 	margin: 0 auto;
 	background-color: #fff;
     background-color: rgba(88, 76, 76, 0.3);
@@ -83,8 +78,9 @@ li a:active{
 .create{
 	display: block;
 	text-align: center;
-	margin: 90px auto;
-	padding: 15%;
+	margin: 0 auto;
+	padding-top: 23%;
+	padding-bottom: 15%;
 	font-size: 30px;
 	font-family: 'Lobster', cursive;
 	color: #6cb2e0;
@@ -93,22 +89,155 @@ li a:active{
 
 h1{
 	color: #ff5a5a;
- 	background-color: rgba(161, 154, 154, 0.3);
-	font-family: 'Open Sans', sans-serif;
+ 	background-color:rgba(0, 0, 0, 0.54);
+ 	font-family: 'Open Sans', sans-serif;
 	max-width: 600px;
 	margin: 0 auto;
+	box-shadow: 0 0 2px 0px;
+}
+
+/*---------------testimonials starts-------------*/
+.testimonials{
+	font-size: 50px;
+	text-align: center;
+	padding: 10px;
+
+}
+.testimonial{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.testi{
+	float: right;
+	display: table;
+	max-width: 33.333%;	
+	background-color: rgba(118, 190, 220, 0.47);
+	padding: 10px;
+	font-size: 130%;
+	width: 250px;
+	margin: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+
+}
+
+.monial{
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+}
+
+.signature{
+	font-family:'Dancing Script', cursive;
+	color: #FF5A5A;
+	font-size: 30px;
 }
 
 
 
+/*main body thought content starts here*/
+.thought{
+	padding-top: 150px;
+	margin-bottom: 80px;
+}
+
+.thought p{
+	text-align: center;
+	font-family:'Dancing Script', cursive;
+	margin-bottom: 40px;
+}
+
+.thought img{
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.mythought{
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	max-width: 600px;
+	font-size: 50px;
+}
+.plan{
+	font-size: 80px;
+}
+.left{
+	padding: 30px;
+	text-align: right;
+	display: block;
+}
+
+
+/*------------FOOTER SECTION-----------*/
+
+footer{
+	padding: 20px;
+	background-color: rgba(60, 58, 58, 0.93);
+	width: 100%;
+}
+
+.footerh1{
+	margin-left: 0px;
+	padding: 3px;
+	color: #FF5A5A;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+ .footerinline { 
+ 	font-size: 20px;
+ 	text-indent: 30px;
+ 	color: #fff;
+ }
+.footerinline{
+	width: 500px;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.social img{
+	height: 100px;
+	width: 100px;
+	float: right;
+	margin-top: -180px;
+	padding: 30px;
+	margin-bottom: 50px;
+
+}
+
+.social img:hover{
+	transition-duration:.3s;
+	box-shadow: 0 0 5px 0px;
+	border-radius: 30px;
+	background-color:rgba(90, 90, 90, 0.93);
+
+}
+
+.email{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	padding-right: 70px;
+}
+.copyright{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: white;
+}
 	</style>
- 	<!--_______ STYLESHEETS ENDS HERE _______-->
-	
 </head>
+
+
 <body>
 <div class="navwrapper">
 	<header class="navbar">
-	<a href="#"><img class="floatleft" src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_9i5yVG.png"></a>
+	<a href="#"><img class="floatleft" src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_125lqp.png"></a>
 		<ul class="navigation">
 			<li><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
@@ -117,12 +246,72 @@ h1{
 		</ul>
 	</header>
 </div>
-	
 <div class="clear">
 </div>
+
 <div class="create">
 	<h1>I'm ready to create, are you?</h1>
 </div>
-	
+
+<div class="clear"></div>
+<h1 class="testimonials">TESTIMONIALS</h1>
+
+<div class="testimonial">
+	<section class="testi">
+		<img class="monial" src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_2Xq080.png">
+		<p>As a returning customer I am fan of their great communication skills, they work with you by putting technical terms aside, and i love that.</p>
+		<p class="signature">- Alex Wolf</p>
+	</section>
+
+	<section class="testi">
+		<img class="monial" src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_2tHJzt.png">
+		<p>AnkitWebDev meets our needs perfectly, they have done the exactly we wanted.</p>
+		<p class="signature">- Mark Depp</p>
+	</section>
+
+	<section class="testi">
+		<img class="monial" src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_125lqp.png">
+		<p>AnkitWebDev developed my fully functional landing page website to power my business, they really put my small store in front of whole world.</p>
+		<p class="signature">- Anthony Jr.</p>
+	</section>
+</div>
+
+<div class="clear"></div>
+
+
+
+<!--thought section-->
+<div class="thought">
+	<img src="Logomakr_91t4F1.png">
+	<p class="mythought">Plan your work today, and then every day work your</p>
+	<p class="mythought plan">plan.</p>
+	<p class="mythought">&amp; that's what i have done and you're looking at right now. : )</p>
+	<p class="mythought left">- thank you</p>
+</div>
+
+
+
+<!--FOOTER SECTION-->
+
+<footer class="table">
+
+	<h2 class="footerh1">Our other products are :</h2>
+	<p class="footerinline">PSD to HTML</p>
+	<p class="footerinline">Bootstrap Framework</p>
+	<p class="footerinline">JQuery Framework</p>
+
+
+	<a href="#" target="_blank" class="social"><img src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_3jVqEv.png"></a>
+	<a href="#" target="_blank" class="social"><img src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_7oa824.png"></a>
+	<a href="#" target="_blank" class="social"><img src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_8NjvEW.png"></a>
+	<a href="#" target="_blank" class="social"><img src="https://raw.githubusercontent.com/Aryankit/ankitwebdev.github.io/master/images/Logomakr_0lgzau.png"></a>
+	<div class="clear"></div>
+	<p class="copyright">&copy; Copyright AnkitWebDev inc. 2017-18 </p>
+</footer>
+
+
+
 </body>
 </html>
+
+
