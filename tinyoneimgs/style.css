@@ -1,0 +1,23 @@
+.container{
+	margin: 0 auto;
+	max-width: 960px;
+	background-color: #FCDB00;
+}
+.recover{
+	background-color: #FCDB00;
+}
+.temp-space{
+	height: 348px;
+}
+.main, h1 p{
+	text-align: center;
+	width: 490px;
+}
+.main{
+	margin: 0 auto;
+	width: 492px;
+	position: relative;
+}
+.main h1{
+	font-size: 50px;
+}
